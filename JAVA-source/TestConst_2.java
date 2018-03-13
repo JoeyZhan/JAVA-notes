@@ -1,11 +1,11 @@
 /* 
-	������캯�����ܴ����ĳ�ͻ
+	多个构造函数可能带来的冲突
 */
 
 class A
 {
 	private int i;
-	//�����9-11�д���ע�͵��������ͻᱨ����
+	//如果将9-11行代码注释调，则程序就会报错；
 	public A()
 	{
 	}//11
@@ -28,21 +28,21 @@ class TestConst_2
 /*
 	2018-03-13 14:24:05
 	
-	һ�������Ϊ�ඨ���˹��췽����ϵͳ�Ͳ����ṩĬ�ϵĹ��췽���ˣ�
+	一旦编程者为类定义了构造方法，系统就不再提供默认的构造方法了；
 	
-	��һ�����󱻴���ʱ��������и������͵ĳ�Ա�����Զ����г�ʼ����ֵ��
+	当一个对象被创建时，会对其中各种类型的成员变量自动进行初始化赋值。
 	
-	��Ա��������					��ʼ��
-	byte							0
-	short                           0
-	int								0
-	long							0L
+	成员变量类型					初始化
+	byte					      0
+	short                          		      0
+	int				              0
+	long					      0L
 	
-	float							0.0F
-	double							0.0D
+	float					      0.0F
+	double					      0.0D
 	
-	char							'\u0000'(��ʾΪ��)
-	boolean							False
+	char					     '\u0000'(表示为空)
+	boolean					      False
 	
-	All reference type				Null
+	All reference type			      Null
 */

@@ -1,7 +1,7 @@
 /*
-	ÀàÖÐ±äÁ¿µÄ³õÊ¼»¯
+	ç±»ä¸­å˜é‡çš„åˆå§‹åŒ–
 	
-	ÀàÖÐµÄÊý¾ÝÀàÐÍÈç¹ûÔÚ¶¨ÒåÊ±²»½«Æä³õÊ¼»¯£¬ÔòËüµÄÖµÊÇÏµÍ³×Ô¶¯·ÖÅäºÃµÄÄ¬ÈÏÖµ£¡£¨±äÁ¿Ä¬ÈÏ³õÊ¼»¯²Î¿¼±íÔÚ×îµ×²¿£©;
+	ç±»ä¸­çš„æ•°æ®ç±»åž‹å¦‚æžœåœ¨å®šä¹‰æ—¶ä¸å°†å…¶åˆå§‹åŒ–ï¼Œåˆ™å®ƒçš„å€¼æ˜¯ç³»ç»Ÿè‡ªåŠ¨åˆ†é…å¥½çš„é»˜è®¤å€¼ï¼ï¼ˆå˜é‡é»˜è®¤åˆå§‹åŒ–å‚è€ƒè¡¨åœ¨æœ€åº•éƒ¨ï¼‰;
 */
 
 class A
@@ -14,7 +14,7 @@ class A
 		i = a;
 		j = b;
 		
-		System.out.printf(" ¹¹Ôìº¯Êý¸³ÖµÖ´ÐÐ³É¹¦\n i = %d, j = %b", i, j);		//booleanÀàÐÍ±äÁ¿ÓÃ%b»ò%BÀ´Êä³ö£»
+		System.out.printf(" æž„é€ å‡½æ•°èµ‹å€¼æ‰§è¡ŒæˆåŠŸ\n i = %d, j = %b", i, j);		//booleanç±»åž‹å˜é‡ç”¨%bæˆ–%Bæ¥è¾“å‡ºï¼›
 	}
 }
 
@@ -24,25 +24,25 @@ class TestConst_3
 	{
 		A aa_1 = new A(666, true);
 		
-	//	int k;	error,¾Ö²¿±äÁ¿ ±àÒëÆ÷ÊÇ²»»á×Ô¶¯½«Æä³õÊ¼»¯£¬
-	//	ÇÒjavaÒªÇóËùÓÐµÄ¾Ö²¿±äÁ¿ÔÚÊ¹ÓÃÖ®Ç°¶¼±ØÐëµÄ³õÊ¼»¯£»
+	//	int k;	error,å±€éƒ¨å˜é‡ ç¼–è¯‘å™¨æ˜¯ä¸ä¼šè‡ªåŠ¨å°†å…¶åˆå§‹åŒ–ï¼Œ
+	//	ä¸”javaè¦æ±‚æ‰€æœ‰çš„å±€éƒ¨å˜é‡åœ¨ä½¿ç”¨ä¹‹å‰éƒ½å¿…é¡»çš„åˆå§‹åŒ–ï¼›
 	}
 }
 
 /*
 	2018-03-15 23:13:00
 	
-	³ÉÔ±±äÁ¿ÀàÐÍ					³õÊ¼»¯
-	byte							0
-	short                           0
-	int								0
-	long							0L
+	æˆå‘˜å˜é‡ç±»åž‹					åˆå§‹åŒ–
+	byte					      0
+	short                           	      0
+	int					      0
+	long					      0L
 	
-	float							0.0F
-	double							0.0D
+	float					      0.0F
+	double				              0.0D
 	
-	char							'\u0000'(±íÊ¾Îª¿Õ)
-	boolean							False
+	char					     '\u0000'(è¡¨ç¤ºä¸ºç©º)
+	boolean					      False
 	
-	All reference type				Null
+	All reference type			      Null
 */

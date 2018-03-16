@@ -16,7 +16,7 @@ class A
 	//这里的 show 方法(函数) 只分配了一个空间，无论定义了多少 A类的对象，所定义的对象都只能使用这同一个 show方法；
 	public void show()	
 	{
-		System.out.printf("i = %d", i);		
+		System.out.printf("i = %d", i);		//这里的 i 是 第9行 的类属性 i;
 	}
 	/*
 	用c语言的写法来理解：

@@ -1,9 +1,9 @@
 /*
-	Static(¾²Ì¬) µÄ×÷ÓÃ(2)
+	Static(é™æ€) çš„ä½œç”¨(2)
 	
-	±¾³ÌÐòStaticµÄ×÷ÓÃ: StaticÊôÐÔi (11ÐÐ)ÊÇÊôÓÚÀà±¾Éí£»
-						¼´Ã»ÓÐ¶ÔÏó£¬ÎÒÃÇÈÔÈ»¿ÉÒÔÖ±½ÓÍ¨¹ýÀàÃûµÄ·½Ê½·ÃÎÊ¸ÃÀàÄÚ²¿µÄ StaticÊôÐÔ£»
-						Static·½·¨show (13ÐÐ)Í¬Àí£»
+	æœ¬ç¨‹åºStaticçš„ä½œç”¨: Staticå±žæ€§i (11è¡Œ)æ˜¯å±žäºŽç±»æœ¬èº«ï¼›
+			  å³æ²¡æœ‰å¯¹è±¡ï¼Œæˆ‘ä»¬ä»ç„¶å¯ä»¥ç›´æŽ¥é€šè¿‡ç±»åçš„æ–¹å¼è®¿é—®è¯¥ç±»å†…éƒ¨çš„ Staticå±žæ€§ï¼›
+			  Staticæ–¹æ³•show (13è¡Œ)åŒç†ï¼›
 */
 
 class A
@@ -28,7 +28,7 @@ public class TestStatic_2
 /*
 	2018-03-18 22:18:12
 	
-	Êä³ö½á¹û£º
+	è¾“å‡ºç»“æžœï¼š
 	233
 	2018-03-18 22:10:49
 */

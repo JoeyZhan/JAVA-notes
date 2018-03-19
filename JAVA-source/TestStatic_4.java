@@ -1,10 +1,10 @@
 /*
-	Static(¾²Ì¬) µÄ×÷ÓÃ(4)
+	Static(é™æ€) çš„ä½œç”¨(4)
 	
-	±¾³ÌÐòÖ¤Ã÷£ºÖ»ÓÐ·ÇprivateµÄStatic³ÉÔ±²Å¿ÉÒÔÍ¨¹ýÀàÃûµÄ·½Ê½·ÃÎÊ£»
+	æœ¬ç¨‹åºè¯æ˜Žï¼šåªæœ‰éžprivateçš„Staticæˆå‘˜æ‰å¯ä»¥é€šè¿‡ç±»åçš„æ–¹å¼è®¿é—®ï¼›
 				
-				StaticÖ»ÊÇ±íÃ÷ÁË¸Ã³ÉÔ±¾ßÓÐÁË¿ÉÒÔÍ¨¹ýÀàÃû·ÃÎÊµÄÇ±ÔÚÌØÕ÷
-				µ« ÊÇ·ñ ¿ÉÒÔÍ¨¹ýÀàÃû·ÃÎÊ£¬»¹±ØÐëÂú×ãÒ»¸öÌõ¼þ£º¸Ã³ÉÔ±±ØÐëÊÇ·Çprivate£»
+		  Staticåªæ˜¯è¡¨æ˜Žäº†è¯¥æˆå‘˜å…·æœ‰äº†å¯ä»¥é€šè¿‡ç±»åè®¿é—®çš„æ½œåœ¨ç‰¹å¾
+		  ä½† æ˜¯å¦ å¯ä»¥é€šè¿‡ç±»åè®¿é—®ï¼Œè¿˜å¿…é¡»æ»¡è¶³ä¸€ä¸ªæ¡ä»¶ï¼šè¯¥æˆå‘˜å¿…é¡»æ˜¯éžprivateï¼›
 */
 
 class A
@@ -29,12 +29,12 @@ public class TestStatic_4
 /*
 	2018-03-19 22:00:26
 	
-	±àÒë½á¹û:
-	TestStatic_4.java:19: ´íÎó: show()¿ÉÒÔÔÚAÖÐ·ÃÎÊprivate
+	ç¼–è¯‘ç»“æžœ:
+	TestStatic_4.java:19: é”™è¯¯: show()å¯ä»¥åœ¨Aä¸­è®¿é—®private
                 A.show();
                  ^
-	TestStatic_4.java:20: ´íÎó: i¿ÉÒÔÔÚAÖÐ·ÃÎÊprivate
+	TestStatic_4.java:20: é”™è¯¯: iå¯ä»¥åœ¨Aä¸­è®¿é—®private
                 A.i = 666;
                  ^
-	2 ¸ö´íÎó
+	2 ä¸ªé”™è¯¯
 */

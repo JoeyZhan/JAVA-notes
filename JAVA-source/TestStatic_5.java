@@ -1,11 +1,11 @@
 /*
-	Static(¾²Ì¬) µÄ×÷ÓÃ(5)
+	Static(é™æ€) çš„ä½œç”¨(5)
 	
-	±¾³ÌÐòÖ¤Ã÷: ¾²Ì¬·½·¨²»ÄÜ·ÃÎÊ·Ç¾²Ì¬³ÉÔ±£»
-				·Ç¾²Ì¬·½·¨¿ÉÒÔ·ÃÎÊ¾²Ì¬³ÉÔ±£»
+	æœ¬ç¨‹åºè¯æ˜Ž: é™æ€æ–¹æ³•ä¸èƒ½è®¿é—®éžé™æ€æˆå‘˜ï¼›
+		  éžé™æ€æ–¹æ³•å¯ä»¥è®¿é—®é™æ€æˆå‘˜ï¼›
 				
-				ÒòÎª ¾²Ì¬ ·½·¨ÊÇÔÚ Àà ÀïÃæµÄ£¬ÎÞÂÛÓÐÃ»ÓÐÍ¨¹ýÀà´´½¨¶ÔÏó£¬¾²Ì¬ ·½·¨/ÊôÐÔ ¶¼»á´æÔÚ£»
-				¶ø ·Ç¾²Ì¬ ·½·¨ÐèÒªÍ¨¹ýÀà´´½¨¶ÔÏó ²Å»á´æÔÚ£»
+		  å› ä¸º é™æ€ æ–¹æ³•æ˜¯åœ¨ ç±» é‡Œé¢çš„ï¼Œæ— è®ºæœ‰æ²¡æœ‰é€šè¿‡ç±»åˆ›å»ºå¯¹è±¡ï¼Œé™æ€ æ–¹æ³•/å±žæ€§ éƒ½ä¼šå­˜åœ¨ï¼›
+		  è€Œ éžé™æ€ æ–¹æ³•éœ€è¦é€šè¿‡ç±»åˆ›å»ºå¯¹è±¡ æ‰ä¼šå­˜åœ¨ï¼›
 */
 
 class A
@@ -15,15 +15,15 @@ class A
 	
 	public static void f()
 	{
-		System.out.printf("F¾²Ì¬º¯Êý¹¹½¨³É¹¦£¡\n");
-		//g();	//error  ¾²Ì¬º¯Êý ÎÞ·¨·ÃÎÊ ·Ç¾²Ì¬³ÉÔ±£»
-		//j = 233666;   //error	  Í¬ÉÏ£»
+		System.out.printf("Fé™æ€å‡½æ•°æž„å»ºæˆåŠŸï¼\n");
+		//g();	//error  é™æ€å‡½æ•° æ— æ³•è®¿é—® éžé™æ€æˆå‘˜ï¼›
+		//j = 233666;   //error	  åŒä¸Šï¼›
 	}
 	
 	public void g()
 	{
-		//f();		//ok  ËµÃ÷ ·Ç¾²Ì¬º¯Êý ¿ÉÒÔ·ÃÎÊ ¾²Ì¬³ÉÔ±£»
-		System.out.printf("G¾²Ì¬º¯Êý¹¹½¨³É¹¦£¡\n");
+		//f();		//ok  è¯´æ˜Ž éžé™æ€å‡½æ•° å¯ä»¥è®¿é—® é™æ€æˆå‘˜ï¼›
+		System.out.printf("Gé™æ€å‡½æ•°æž„å»ºæˆåŠŸï¼\n");
 		System.out.printf("%d\n", i);
 	}
 }
@@ -37,6 +37,6 @@ public class TestStatic_5
 		aa_1.f();
 		//aa_1.g();
 		
-		//A.g() 	//error gº¯ÊýÊÇ¶¯Ì¬º¯Êý£¬ÎÞ·¨Í¨¹ýÀàÃû·ÃÎÊ£»
+		//A.g() 	//error gå‡½æ•°æ˜¯åŠ¨æ€å‡½æ•°ï¼Œæ— æ³•é€šè¿‡ç±»åè®¿é—®ï¼›
 	}
 }

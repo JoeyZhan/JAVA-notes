@@ -37,6 +37,6 @@ public class TestStatic_5
 		aa_1.f();
 		//aa_1.g();
 		
-		//A.g() 	//error g函数是动态函数，无法通过类名访问；
+		//A.g() 	//error  g函数 是 动态函数，无法通过类名访问；
 	}
 }

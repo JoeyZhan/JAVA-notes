@@ -1,7 +1,7 @@
 /*
-	Static(¾²Ì¬) ÊµÀý_2
+	Static(é™æ€) å®žä¾‹_2
 	
-	±¾³ÌÐòµÄ×÷ÓÃ£ºÁîÀà Ö»ÄÜ ´´½¨Ò»¸ö¶ÔÏó£»
+	æœ¬ç¨‹åºçš„ä½œç”¨ï¼šä»¤ç±» åªèƒ½ åˆ›å»ºä¸€ä¸ªå¯¹è±¡ï¼›
 */
 
 class A
@@ -30,25 +30,25 @@ public class TestStatic_1_2
 		System.out.printf("%d\n", aa2.i);
 		
 		if (aa1 == aa2)
-			System.out.printf("aa1 Óë aa2 ÏàµÈ\n");
+			System.out.printf("aa1 ä¸Ž aa2 ç›¸ç­‰\n");
 		else
-			System.out.printf("aa1 Óë aa2 ²»ÏëµÈ\n");
+			System.out.printf("aa1 ä¸Ž aa2 ä¸æƒ³ç­‰\n");
 		
-//		A aa1 = new A();  // error Èç¹ûAÀàµÄ¹¹Ôì·½·¨ÊÇprivateµÄ£¬Ôònew A()¾Í»á±¨´í!
-//		A aa2 = new A();  // Í¬ÉÏ
+//		A aa1 = new A();  // error å¦‚æžœAç±»çš„æž„é€ æ–¹æ³•æ˜¯privateçš„ï¼Œåˆ™new A()å°±ä¼šæŠ¥é”™!
+//		A aa2 = new A();  // åŒä¸Š
 	}
 }
 
 /*
 	2018-03-24 17:43:01
 	
-	ÔËÐÐ½á¹û£º
+	è¿è¡Œç»“æžœï¼š
 		666
-		aa1 Óë aa2 ÏàµÈ
+		aa1 ä¸Ž aa2 ç›¸ç­‰
 	
-	Ìå»á£ºÓÐÐ©»ìÂÒ£¬Èç¹ûÏÞÖÆÖ»ÄÜÉú³ÉÒ»¸ö ¶ÔÏó£¬
-		  ÄÇÎªºÎ²»Ö±½Ó½« Àà ÖÐµÄ ÊôÐÔ ¶¼±äÎªStatic(¾²Ì¬),
-		  ÕâÑùÎÞÂÛÉú³É¶àÉÙ¶ÔÏó£¬ËùÊ¹ÓÃµÄ¶¼ÊÇÍ¬Ò»¸ö¶ÔÏó¡£
+	ä½“ä¼šï¼šæœ‰äº›æ··ä¹±ï¼Œå¦‚æžœé™åˆ¶åªèƒ½ç”Ÿæˆä¸€ä¸ª å¯¹è±¡ï¼Œ
+	     é‚£ä¸ºä½•ä¸ç›´æŽ¥å°† ç±» ä¸­çš„ å±žæ€§ éƒ½å˜ä¸ºStatic(é™æ€),
+             è¿™æ ·æ— è®ºç”Ÿæˆå¤šå°‘å¯¹è±¡ï¼Œæ‰€ä½¿ç”¨çš„éƒ½æ˜¯åŒä¸€ä¸ªå¯¹è±¡ã€‚
 */
 
 

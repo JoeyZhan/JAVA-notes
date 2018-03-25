@@ -7,7 +7,7 @@
 class A
 {
 	public int i = 233;
-	private static A aa = new A();
+	private static A aa = new A();	  //在同类中生成同类对象，语法无误，但这种用法很少见；
 	
 	private A()
 	{

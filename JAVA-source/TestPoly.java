@@ -1,12 +1,12 @@
 /*
-	¶àÌ¬µÄÓÃ·¨
+	å¤šæ€çš„ç”¨æ³•
 */
 
 class A
 {
 	public void f()
 	{
-		System.out.printf("AÀà£¡\n");
+		System.out.printf("Aç±»ï¼\n");
 	}
 }
 
@@ -14,7 +14,7 @@ class B extends A
 {
 	public void f()
 	{
-		System.out.printf("BÀà£¡\n");
+		System.out.printf("Bç±»ï¼\n");
 	}
 }
 
@@ -28,8 +28,8 @@ public class TestPoly
 		aa_1.f();
 		bb_1.f();
 		
-		aa_1 = bb_1;	//°Ñbb_1µ±×÷aa_1À´¿´´ý£¬ÒòÎª×ÓÀà¿ÉÒÔµ±×÷¸¸Àà¿´´ý£¬ËùÒÔ±¾Óï¾äok;
-	  //bb_1 = aa_1;	//°Ñaa_1µ±×÷bb_1À´¿´´ý£¬µ«ÓÖÒòÎª¸¸Àà²»ÄÜµ±×÷×ÓÀà¿´´ý£¬ËùÒÔ±¾Óï¾äerror;
+		aa_1 = bb_1;	//æŠŠbb_1å½“ä½œaa_1æ¥çœ‹å¾…ï¼Œå› ä¸ºå­ç±»å¯ä»¥å½“ä½œçˆ¶ç±»çœ‹å¾…ï¼Œæ‰€ä»¥æœ¬è¯­å¥ok;
+	      //bb_1 = aa_1;	//æŠŠaa_1å½“ä½œbb_1æ¥çœ‹å¾…ï¼Œä½†åˆå› ä¸ºçˆ¶ç±»ä¸èƒ½å½“ä½œå­ç±»çœ‹å¾…ï¼Œæ‰€ä»¥æœ¬è¯­å¥error;
 		aa_1.f();
 	}
 }
@@ -37,12 +37,12 @@ public class TestPoly
 /*
 	2018-03-30 23:21:39
 	
-	ÔËÐÐ½á¹û£º
-		AÀà£¡
-		BÀà!
-		BÀà£¡
+	è¿è¡Œç»“æžœï¼š
+		Aç±»ï¼
+		Bç±»!
+		Bç±»ï¼
 		
 	------------
-	Ìå»á£º
-		¿ÉÒÔÀí½âÎª Ã¨¿ÉÒÔµ±×÷¶¯ÎïÀ´¿´´ý£¬µ«¶¯Îï²»ÄÜµ±×÷Ã¨À´¿´´ý£¡
+	ä½“ä¼šï¼š
+		å¯ä»¥ç†è§£ä¸º çŒ«å¯ä»¥å½“ä½œåŠ¨ç‰©æ¥çœ‹å¾…ï¼Œä½†åŠ¨ç‰©ä¸èƒ½å½“ä½œçŒ«æ¥çœ‹å¾…ï¼
 */

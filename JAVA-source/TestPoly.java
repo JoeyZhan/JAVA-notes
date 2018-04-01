@@ -38,7 +38,7 @@ public class TestPoly
 	2018-03-30 23:21:39
 	
 	运行结果：
-		A类！
+		A类！ 
 		B类!
 		B类！
 		

@@ -1,15 +1,15 @@
 /*
-	final µÄÓÃ·¨_1
+	final çš„ç”¨æ³•_1
 	
-	finalµÄÐÞÊÎ·¶Î§£º
-		Õû¸öÀà
-		ÀàÖÐµÄÈô¸É¸öÊôÐÔ
-		ÀàÖÐµÄÈô¸É¸ö·½·¨
+	finalçš„ä¿®é¥°èŒƒå›´ï¼š
+		æ•´ä¸ªç±»
+		ç±»ä¸­çš„è‹¥å¹²ä¸ªå±žæ€§
+		ç±»ä¸­çš„è‹¥å¹²ä¸ªæ–¹æ³•
 	
-	finalÐÞÊÎ Õû¸öÀà
-		±íÊ¾¸ÃÀà²»ÄÜ±»¼Ì³Ð
-	    Èç¹ûÈÏÎªÒ»¸öÀàÒÑ¾­ºÜÍêÃÀÇÒ²»ÐèÒª¶¨Òå×ÓÀàÀ´¼Ì³ÐËüÊ±£¬¿ÉÒÔÊ¹ÓÃËü£»
-	Óï·¨£ºpublic final class A{};	(public ºÍ final ¿ÉÒÔ»¥»»);
+	finalä¿®é¥° æ•´ä¸ªç±»
+		è¡¨ç¤ºè¯¥ç±»ä¸èƒ½è¢«ç»§æ‰¿
+	    	å¦‚æžœè®¤ä¸ºä¸€ä¸ªç±»å·²ç»å¾ˆå®Œç¾Žä¸”ä¸éœ€è¦å®šä¹‰å­ç±»æ¥ç»§æ‰¿å®ƒæ—¶ï¼Œå¯ä»¥ä½¿ç”¨å®ƒï¼›
+	è¯­æ³•ï¼špublic final class A{};	(public å’Œ final å¯ä»¥äº’æ¢);
 */
 
 final class A
@@ -17,7 +17,7 @@ final class A
 	
 }
 
-/*error	»á±¨´í£¬ÒòÎª µ±finalÐÞÊÎÕû¸öÀàÊ±£¬ÎÞ·¨±»¼Ì³Ð£»
+/*error	ä¼šæŠ¥é”™ï¼Œå› ä¸º å½“finalä¿®é¥°æ•´ä¸ªç±»æ—¶ï¼Œæ— æ³•è¢«ç»§æ‰¿ï¼›
 class B extends A
 {
 	

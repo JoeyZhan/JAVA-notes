@@ -1,5 +1,5 @@
 /*
-	³éÏóÀà(abstract)µÄÓÃ·¨_2
+	æŠ½è±¡ç±»(abstract)çš„ç”¨æ³•_2
 	
 */
 
@@ -12,7 +12,7 @@ class B extends A
 {
 	public void f()
 	{
-		System.out.printf("BÀà¼Ì³ÐÓÚA³éÏóÀà£¡\n");
+		System.out.printf("Bç±»ç»§æ‰¿äºŽAæŠ½è±¡ç±»ï¼\n");
 	}
 }
 
@@ -20,19 +20,19 @@ public class TestAbs_2
 {
 	public static void main(String[] args)
 	{
-	  //A aa_1 = new A();	//error	 ÎÞ·¨ new ³öÒ»¸ö ³éÏóÀà¶ÔÏó;
-		A aa_1;				//ok	 µ«¿ÉÒÔ	¶¨ÒåÒ»¸ö ³éÏóÀàÒýÓÃ;
-		aa_1 = new B();		//ok	 ½«×ÓÀà¶ÔÏóµÄµØÖ·¸³¸ø³éÏóÀàµÄÒýÓÃ;
-		aa_1.f()			//ok	 ³éÏóÀàÊµÏÖ¶àÌ¬;
+	  	//A aa_1 = new A();	//error	 æ— æ³• new å‡ºä¸€ä¸ª æŠ½è±¡ç±»å¯¹è±¡;
+		A aa_1;			//ok	 ä½†å¯ä»¥	å®šä¹‰ä¸€ä¸ª æŠ½è±¡ç±»å¼•ç”¨;
+		aa_1 = new B();		//ok	 å°†å­ç±»å¯¹è±¡çš„åœ°å€èµ‹ç»™æŠ½è±¡ç±»çš„å¼•ç”¨;
+		aa_1.f()		//ok	 æŠ½è±¡ç±»å®žçŽ°å¤šæ€;
 	}
 }
 
 /*
 	2018-04-05 13:37:36
 	
-	×Ü½á£º
-		³éÏóÀàÎÞ·¨´´½¨¶ÔÏó£¬¼´ ÎÞ·¨new ³öÒ»¸ö ³éÏóÀà¶ÔÏó£»
-		µ«¿ÉÒÔ¶¨ÒåÒ»¸ö ³éÏóÀà¶ÔÏó£»
+	æ€»ç»“ï¼š
+		æŠ½è±¡ç±»æ— æ³•åˆ›å»ºå¯¹è±¡ï¼Œå³ æ— æ³•new å‡ºä¸€ä¸ª æŠ½è±¡ç±»å¯¹è±¡ï¼›
+		ä½†å¯ä»¥å®šä¹‰ä¸€ä¸ª æŠ½è±¡ç±»å¯¹è±¡ï¼›
 		
-		³éÏóÀà¿ÉÒÔÍ¨¹ý ½«×ÓÀà¶ÔÏóµÄµØÖ·¸³¸ø³éÏóÀàµÄÓ¦ÓÃ(25ÐÐ) µÄ·½Ê½ À´ ÊµÏÖ¶àÌ¬£»
+		æŠ½è±¡ç±»å¯ä»¥é€šè¿‡ å°†å­ç±»å¯¹è±¡çš„åœ°å€èµ‹ç»™æŠ½è±¡ç±»çš„åº”ç”¨(25è¡Œ) çš„æ–¹å¼ æ¥ å®žçŽ°å¤šæ€ï¼›
 */

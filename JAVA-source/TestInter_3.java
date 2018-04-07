@@ -1,5 +1,5 @@
 /*
-	interface(½Ó¿Ú)	µÄÓÃ·¨_3
+	interface(æ¥å£)	çš„ç”¨æ³•_3
 	
 */
 
@@ -10,11 +10,11 @@ interface It
 	public abstract void j();
 }
 
-abstract class It_2 implements It	//Èç¹ûÒ»¸öÀàÖ»ÊµÏÖÁËÒ»¸ö½Ó¿ÚµÄ²¿·Ö·½·¨£¬Ôò¸ÃÀà±ØĞëÉùÃ÷Îª³éÏóÀà£¬¼´ÔÚÇ°Ãæ¼ÓĞŞÊÎ·û abstract;
+abstract class It_2 implements It	//å¦‚æœä¸€ä¸ªç±»åªå®ç°äº†ä¸€ä¸ªæ¥å£çš„éƒ¨åˆ†æ–¹æ³•ï¼Œåˆ™è¯¥ç±»å¿…é¡»å£°æ˜ä¸ºæŠ½è±¡ç±»ï¼Œå³åœ¨å‰é¢åŠ ä¿®é¥°ç¬¦ abstract;
 {
 	public void f()
 	{
-		System.out.printf("AÀàÊµÏÖIt½Ó¿Ú!\n");
+		System.out.printf("Aç±»å®ç°Itæ¥å£!\n");
 	}
 }
 
@@ -23,8 +23,8 @@ class A
 	public int a;
 }
 
-class B extends A implements It		//Ò»¸öÀà¿ÉÒÔÔÚ¼Ì³ĞÒ»¸ö¸¸ÀàµÄÍ¬Ê±ÊµÏÖÒ»¸ö»ò¶à¸ö½Ó¿Ú;
-{									//µ« extends ±ØĞëÔÚ implements Ö®Ç°;
+class B extends A implements It		//ä¸€ä¸ªç±»å¯ä»¥åœ¨ç»§æ‰¿ä¸€ä¸ªçˆ¶ç±»çš„åŒæ—¶å®ç°ä¸€ä¸ªæˆ–å¤šä¸ªæ¥å£;
+{					//ä½† extends å¿…é¡»åœ¨ implements ä¹‹å‰;
 	public void f()
 	{
 	}

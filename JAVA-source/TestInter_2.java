@@ -1,5 +1,5 @@
 /*
-	interface(接口) 的用法_2
+	interface(鎺ュ彛) 鐨勭敤娉昣2
 	
 */
 
@@ -15,17 +15,17 @@ interface It_2
 	void j();
 }
 
-/*	error	It是接口，一个类只能implements(实现)某个接口，但不能 extends(继承) 某个接口;
+/*	error	It鏄帴鍙ｏ紝涓�涓被鍙兘implements(瀹炵幇)鏌愪釜鎺ュ彛锛屼絾涓嶈兘 extends(缁ф壙) 鏌愪釜鎺ュ彛;
 class B extends It		//class B implements It{}	//ok
 {
 }
 */
 
-//	ok	接口可以继承接口;
+//	ok  鎺ュ彛鍙互缁ф壙鎺ュ彛;
 interface extIt extends It
 {
 }
-//	ok  接口不但可以继承接口，而且可以继承多个接口，即接口允许多继承；
+//	ok  鎺ュ彛涓嶄絾鍙互缁ф壙鎺ュ彛锛岃�屼笖鍙互缁ф壙澶氫釜鎺ュ彛锛屽嵆鎺ュ彛鍏佽澶氱户鎵匡紱
 interface extIt_2 extends It, It_2
 {
 }

@@ -11,7 +11,7 @@ interface It_student_f
 abstract class A_student_a
 {
 	public int i, j;
-	public int p = 10;
+	public int p = 100;
 	public float[] score = new float[p];
 	public Scanner sc = new Scanner(System.in);
 	public float sum, avg, t;
@@ -21,22 +21,22 @@ class B extends A_student_a implements It_student_f
 {
 	public void input()
 	{
-		System.out.printf("ÇëÊäÈëËùĞèÂ¼ÈëµÄÑ§ÉúÈËÊı: ");
+		System.out.printf("è¯·è¾“å…¥æ‰€éœ€å½•å…¥çš„å­¦ç”Ÿäººæ•°: ");
 		p = sc.nextInt();
 		
 		for (i=1; i<=p; ++i)
 		{
-			System.out.printf("ÇëÊäÈëµÚ" + i + "¸öÑ§ÉúµÄ·ÖÊı£º");
+			System.out.printf("è¯·è¾“å…¥ç¬¬" + i + "ä¸ªå­¦ç”Ÿçš„åˆ†æ•°ï¼š");
 			score[i-1] = sc.nextFloat();
 		}
 	}
 	
 	public void output()
 	{
-		System.out.printf("\nÑ§Éú³É¼¨´Ó´óµ½Ğ¡ÅÅĞò£º\n");
+		System.out.printf("\nå­¦ç”Ÿæˆç»©ä»å¤§åˆ°å°æ’åºï¼š\n");
 		for (i=1; i<=p; ++i)
 		{
-			System.out.printf("µÚ" + i + "ÃûÑ§ÉúµÄ·ÖÊıÎª£º" + score[i-1] + "\n");
+			System.out.printf("ç¬¬" + i + "åå­¦ç”Ÿçš„åˆ†æ•°ä¸ºï¼š" + score[i-1] + "\n");
 		}
 	}
 	
@@ -64,8 +64,8 @@ class B extends A_student_a implements It_student_f
 		}
 		
 		avg = sum/p;
-		System.out.printf("\n" + p + "¸öÑ§ÉúµÄ×Ü·ÖÊıÎª£º" + sum + "\n");
-		System.out.printf(p + "¸öÑ§ÉúµÄÆ½¾ù·ÖÎª£º" + avg + "\n");
+		System.out.printf("\n" + p + "ä¸ªå­¦ç”Ÿçš„æ€»åˆ†æ•°ä¸ºï¼š" + sum + "\n");
+		System.out.printf(p + "ä¸ªå­¦ç”Ÿçš„å¹³å‡åˆ†ä¸ºï¼š" + avg + "\n");
 	}
 }
 
@@ -80,3 +80,9 @@ public class Test_Student_inout_bs
 		bb_1.sum_avg();
 	}
 }
+
+/*
+	2018-04-10 22:58:14
+	
+	å¾…è§£å†³é—®é¢˜ï¼š14ï¼Œ15ï¼Œ25è¡Œçš„ä»£ç ï¼ŒåŠ¨æ€å†…å­˜åˆ†é…çš„é—®é¢˜ï¼›
+*/

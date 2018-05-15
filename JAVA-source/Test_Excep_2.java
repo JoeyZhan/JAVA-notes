@@ -1,7 +1,7 @@
 /*
-	Exception(Òì³£) µÄÓÃ·¨_2
+	Exception(å¼‚å¸¸) çš„ç”¨æ³•_2
 	
-	try{}catch{} Óï¾ä¸³ÖµµÄÎÊÌâ
+	try{}catch{} è¯­å¥èµ‹å€¼çš„é—®é¢˜
 */
 
 public class Test_Excep_2
@@ -9,7 +9,7 @@ public class Test_Excep_2
 	public static void main(String[] args)
 	{
 		int i;
-		//int i = 0;	//ÈÎÒâ¸³¸öÖµ;
+		//int i = 0;	//ä»»æ„èµ‹ä¸ªå€¼;
 		try
 		{
 			i = 666;
@@ -20,22 +20,22 @@ public class Test_Excep_2
 			
 		}
 		
-		System.out.printf("i = %d\n", i);	//error  java±àÒëÆ÷ÈÏÎª  i ±äÁ¿ ¿ÉÄÜ ÉÐÎ´³õÊ¼»¯£¬ÒòÎª14ÐÐ´úÂë·ÅÔÚ tryÓï¾äÖÐ£¬
-											//		 java±àÒëÆ÷ÈÏÎª·ÅÔÚtryÓï¾äÖÐµÄ¶¼ËµÃ÷ ÓÐ¿ÉÄÜ³ö´í£¬ËùÒÔËüÔÚ ±àÒëÊ± ×Ô¶¯ºöÂÔ 14ÐÐ´úÂë£¬¶øÔÚ ÔËÐÐÊ± ÓÖË³ÀûÖ´ÐÐ£»
-											//		 ½â¾ö·½·¨£º11ÐÐ;
+		System.out.printf("i = %d\n", i);	//error  javaç¼–è¯‘å™¨è®¤ä¸º  i å˜é‡ å¯èƒ½ å°šæœªåˆå§‹åŒ–ï¼Œå› ä¸º14è¡Œä»£ç æ”¾åœ¨ tryè¯­å¥ä¸­ï¼Œ
+							//	 javaç¼–è¯‘å™¨è®¤ä¸ºæ”¾åœ¨tryè¯­å¥ä¸­çš„éƒ½è¯´æ˜Ž æœ‰å¯èƒ½å‡ºé”™ï¼Œæ‰€ä»¥å®ƒåœ¨ ç¼–è¯‘æ—¶ è‡ªåŠ¨å¿½ç•¥ 14è¡Œä»£ç ï¼Œè€Œåœ¨ è¿è¡Œæ—¶ åˆé¡ºåˆ©æ‰§è¡Œï¼›
+							//	 è§£å†³æ–¹æ³•ï¼š11è¡Œ;
 	}
 }
 
 
 /*
-	ÔËÐÐ½á¹û£º
-		Test_Excep_2.java:22: ´íÎó: ¿ÉÄÜÉÐÎ´³õÊ¼»¯±äÁ¿i
+	è¿è¡Œç»“æžœï¼š
+		Test_Excep_2.java:22: é”™è¯¯: å¯èƒ½å°šæœªåˆå§‹åŒ–å˜é‡i
                 System.out.printf("i = %d", i);
                                             ^
-		1 ¸ö´íÎó
+		1 ä¸ªé”™è¯¯
 
 		
-	ÒÉÎÊ£º
-		java±àÒëÆ÷ÈÏÎª·ÅÔÚtryÓï¾äÖÐµÄ¶¼ËµÃ÷ ÓÐ¿ÉÄÜ³ö´í£¬ËüÔÚ ±àÒëÊ± ×Ô¶¯ºöÂÔ 14ÐÐ´úÂë£¬¶øÔÚ ÔËÐÐÊ± ÓÖË³ÀûÖ´ÐÐ£»
-		ÕâÊÇ·ñÄÜËµÃ÷£¬try{}catch{} ÖÐµÄ Óï¾ä Ö»»áÔÚ ÔËÐÐÊ± Ö´ÐÐ£¿£¿£¿
+	ç–‘é—®ï¼š
+		javaç¼–è¯‘å™¨è®¤ä¸ºæ”¾åœ¨tryè¯­å¥ä¸­çš„éƒ½è¯´æ˜Ž æœ‰å¯èƒ½å‡ºé”™ï¼Œå®ƒåœ¨ ç¼–è¯‘æ—¶ è‡ªåŠ¨å¿½ç•¥ 14è¡Œä»£ç ï¼Œè€Œåœ¨ è¿è¡Œæ—¶ åˆé¡ºåˆ©æ‰§è¡Œï¼›
+		è¿™æ˜¯å¦èƒ½è¯´æ˜Žï¼Œtry{}catch{} ä¸­çš„ è¯­å¥ åªä¼šåœ¨ è¿è¡Œæ—¶ æ‰§è¡Œï¼Ÿï¼Ÿï¼Ÿ
 */

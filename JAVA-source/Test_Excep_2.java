@@ -28,7 +28,7 @@ public class Test_Excep_2
 
 
 /*
-	运行结果：
+	编译结果：
 		Test_Excep_2.java:22: 错误: 可能尚未初始化变量i
                 System.out.printf("i = %d", i);
                                             ^
